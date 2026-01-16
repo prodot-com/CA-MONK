@@ -1,0 +1,49 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Future of Fintech",
+      "category": [
+        "FINANCE",
+        "TECH"
+      ],
+      "description": "Exploring how AI and blockchain are reshaping financial services",
+      "date": "2026-01-11T09:12:45.120Z",
+      "coverImage": "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg",
+      "content": "Artificial Intelligence and Blockchain are transforming financial services by improving security, transparency, and automation. From fraud detection to decentralized finance, fintech innovation is accelerating rapidly."
+    },
+    {
+      "id": "2",
+      "title": "React Query Simplified",
+      "category": [
+        "TECH"
+      ],
+      "description": "Understanding server state management with TanStack Query",
+      "date": "2026-01-12T10:30:00.000Z",
+      "coverImage": "https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg",
+      "content": "TanStack Query simplifies data fetching, caching, synchronization, and error handling in modern React applications. It eliminates the need for complex Redux boilerplate."
+    },
+    {
+      "id": "9bef",
+      "title": "Why TanStack Query is Powerful",
+      "category": [
+        "TECH"
+      ],
+      "description": "Managing server state made simple",
+      "date": "2026-01-16T10:30:00.000Z",
+      "coverImage": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+      "content": "TanStack Query simplifies data fetching, caching, synchronization, and error handling in React applications."
+    },
+    {
+      "id": "1482",
+      "title": "x",
+      "category": [
+        "TECH"
+      ],
+      "description": "x",
+      "date": "2026-01-16T18:43:52.256Z",
+      "coverImage": "x",
+      "content": "x"
+    }
+  ]
+}
