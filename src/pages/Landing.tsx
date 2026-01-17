@@ -33,7 +33,7 @@ export default function LandingPage({ onEnter }: { onEnter: () => void }) {
             Clean interface, powerful state management, and lightning-fast performance.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" className="h-14 px-8 text-lg rounded-full gap-2 shadow-xl shadow-primary/20" onClick={onEnter}>
+            <Button size="lg" className="h-14 px-8 text-lg rounded-full gap-2 shadow-xl shadow-primary/20 cursor-pointer" onClick={onEnter}>
               Get Started for Free <ArrowRight size={20} />
             </Button>
             <Button size="lg" variant="outline" className="h-14 px-8 text-lg rounded-full">

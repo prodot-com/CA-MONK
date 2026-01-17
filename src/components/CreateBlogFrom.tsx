@@ -35,7 +35,7 @@ export default function CreateBlogForm() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button size="sm" className="rounded-full gap-2">
+        <Button size="sm" className="rounded-full gap-2 cursor-pointer">
           <Plus size={16} /> New Post
         </Button>
       </DialogTrigger>
@@ -48,7 +48,7 @@ export default function CreateBlogForm() {
           <Input name="coverImage" placeholder="Image URL (Unsplash/Pexels)" required />
           <Input name="description" placeholder="Short Summary" required />
           <Textarea name="content" placeholder="Write your thoughts here..." className="min-h-37.5" required />
-          <Button type="submit" className="w-full" disabled={isPending}>
+          <Button type="submit" className="w-full cursor-pointer" disabled={isPending}>
             {isPending ? "Publishing..." : "Publish Post"}
           </Button>
         </form>
