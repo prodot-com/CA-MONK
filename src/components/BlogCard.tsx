@@ -14,7 +14,7 @@ export default function BlogCard({
   return (
     <Card
       onClick={onClick}
-      className={`group mx-4 p-4 cursor-pointer transition-all duration-300 border-none shadow-none hover:bg-slate-50 ${
+      className={`group mx-4 p-4 cursor-pointer transition-all duration-300 border shadow-none hover:bg-slate-50 ${
         isActive ? "bg-slate-100 ring-1 ring-slate-200" : "bg-transparent"
       }`}
     >
