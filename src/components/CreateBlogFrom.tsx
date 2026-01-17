@@ -39,7 +39,7 @@ export default function CreateBlogForm() {
           <Plus size={16} /> New Post
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[500px]">
+      <DialogContent className="sm:max-w-125">
         <DialogHeader>
           <DialogTitle>Create New Blog Post</DialogTitle>
         </DialogHeader>
@@ -47,7 +47,7 @@ export default function CreateBlogForm() {
           <Input name="title" placeholder="Catchy Title" required />
           <Input name="coverImage" placeholder="Image URL (Unsplash/Pexels)" required />
           <Input name="description" placeholder="Short Summary" required />
-          <Textarea name="content" placeholder="Write your thoughts here..." className="min-h-[150px]" required />
+          <Textarea name="content" placeholder="Write your thoughts here..." className="min-h-37.5" required />
           <Button type="submit" className="w-full" disabled={isPending}>
             {isPending ? "Publishing..." : "Publish Post"}
           </Button>

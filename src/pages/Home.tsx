@@ -9,8 +9,7 @@ export default function Home() {
 
   return (
     <div className="flex h-screen w-full bg-[#fcfcfc] overflow-hidden">
-      {/* Sidebar: Blog List & Actions */}
-      <aside className="w-[400px] border-r bg-white flex flex-col shadow-sm">
+      <aside className="w-100 border-r bg-white flex flex-col shadow-sm">
         <div className="p-6 space-y-4">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-black tracking-tight text-slate-900">CA MONK</h1>
@@ -23,8 +22,6 @@ export default function Home() {
           <BlogList onSelect={setSelectedId} selectedId={selectedId} />
         </div>
       </aside>
-
-      {/* Main Content: Blog Details */}
       <main className="flex-1 overflow-y-auto bg-slate-50/30">
         <BlogDetails id={selectedId} />
       </main>

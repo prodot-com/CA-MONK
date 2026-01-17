@@ -18,7 +18,7 @@ export default function BlogDetails({ id }: { id: number | null }) {
 
   if (isLoading) return (
     <div className="p-12 max-w-3xl mx-auto space-y-6">
-      <Skeleton className="h-[400px] w-full rounded-2xl" />
+      <Skeleton className="h-100 w-full rounded-2xl" />
       <Skeleton className="h-12 w-3/4" />
       <Skeleton className="h-24 w-full" />
     </div>
@@ -28,7 +28,7 @@ export default function BlogDetails({ id }: { id: number | null }) {
     <div className="p-8 md:p-16 max-w-4xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-500">
       <img 
         src={data?.coverImage} 
-        className="w-full h-[450px] object-cover rounded-[2rem] shadow-2xl mb-10 border-4 border-white"
+        className="w-full h-112.5 object-cover rounded-[2rem] shadow-2xl mb-10 border-4 border-white"
         alt="cover"
       />
       
